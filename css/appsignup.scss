@@ -1,9 +1,18 @@
 #app_signup {
-	background: url(../img/signup_bg.png);
+	background: url(../img/blue_tile.jpg);
+	
+	color: #FFF;
+	
+	
 	
 	.container { 
 		max-width: 550px;
 		margin: 0px auto;
+	
+	
+		h1 {
+			 text-align: center;
+		}
 	}
 	
 }
