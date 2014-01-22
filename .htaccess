@@ -1,0 +1,4 @@
+ErrorDocument 404 missing.html
+
+RewriteEngine On
+RewriteRule ^go$ http://app.packa.gr/subscribe
