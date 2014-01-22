@@ -1,0 +1,127 @@
+#features_hero {
+	
+	background-image: url(../img/packagr_ipad_eric.jpg);
+	background-attachment: scroll !important; 
+	
+	.container {
+		padding-top: 2em;
+		padding-bottom: 2em;
+		
+		height: 300px;
+			
+	}
+	
+	h1 {
+		color: #FFF;
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		text-align: center;
+		position: relative;
+		top: 50%;		
+		transform: translateY(-50%);
+		font-size: 2em;
+	}
+	
+
+
+
+		
+}
+
+#features_intro {
+	background-color: #F0F8FB;
+	padding-top: 2em;
+	padding-bottom: 2em;
+
+	.fifths {
+		width: 30%;
+		float: left;
+		text-align: center;
+		margin: 1em 1.5%;
+		font-size: 0.9em;
+		
+		span { 
+			max-width: 10em;
+			display: block;
+			margin: 0px auto;
+		}
+		
+		img { 
+			margin: 0px auto 1em;
+		}
+		
+		&:nth-child(3n+1) {
+			clear: left;
+		}
+		
+	}
+	
+	@media (min-width: 768px) {
+		
+		.fifths {
+			width: 20%;
+			margin: 1em auto;
+			font-size: 1.1em;
+
+			&:nth-child(3n+1) {
+				clear: none;
+			}
+
+		}
+		
+	}
+	
+	
+	
+
+
+}
+
+
+#features {
+	
+
+	.container { max-width: 35em; margin-top: 3em; margin-bottom:3em;  }
+
+	.illo {
+		display: none;
+	}
+
+	.left {
+		float: left;
+		margin-right: 1em;
+	}
+
+	.right {
+		float: right;
+		margin-left: 1em;
+	}
+	
+	
+	@media (min-width: 768px) {
+		.illo { display: block; }
+	}
+
+
+	@media (min-width: 1024px) {
+		
+	
+		.outset.left {
+			margin-left: -20%;
+			float: left;
+			margin-right: 1em;
+		}
+		
+		.outset.right {
+			margin-right: -20%;
+			float: right;
+			margin-left: 1em;
+		}
+
+
+
+	}
+		
+		
+}

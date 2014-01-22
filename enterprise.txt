@@ -1,0 +1,11 @@
+			<div class="tier">
+				<header>
+					<h3>Enterprise</h3>
+					<a href="contact.html">Contact Us</a>
+				</header>
+				<p>Fully featured with support for multiple publications.</p> 
+				<p>Includes custom development, web integrations, dedicated cloud hosting and more.</p> 
+				<footer>
+					<a href="http://packa.gr/go" class="button">Select</a>
+				</footer>						
+			</div>

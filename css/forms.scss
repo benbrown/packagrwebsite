@@ -1,0 +1,30 @@
+form {
+
+	p {
+		 margin-bottom: 0.5em; 
+		 margin-top: 0;	
+	}
+
+	p:first-of-type {
+		margin-top: inherit;
+	}
+	
+	input.text {
+		padding: 1em;
+		width: calc(100% - 2em);
+		font-size: 1em;
+	}
+
+	textarea {
+		padding: 1em;
+		height: 100px;
+		width: calc(100% - 2em);
+		font-size: 1em;
+
+	}
+	
+	.button {
+		border: 0;
+	}
+
+}

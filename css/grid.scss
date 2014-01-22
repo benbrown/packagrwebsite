@@ -1,0 +1,60 @@
+		/* Simple Grid System */
+		/* 8 columns! That should be plenty, and allows for near golden ratio 5/3 */
+		
+		@media (min-width: 480px) {		
+
+			.column_8 {
+				width: 100%;
+			}
+			
+			.column_7 {
+				float: left;
+				width: 87.5%; 
+			}
+			
+			.column_6 {
+				float: left;
+				width: 75%; 
+			}
+			
+			.column_5 {
+				float: left;
+				width: 62.5%; 
+			}
+			
+			.column_4 {
+				float: left;
+				width: 50%; 
+			}
+			
+			.column_3 {
+				float: left;
+				width: 37.5%;
+			}
+			
+			.column_2 {
+				float: left;
+				width: 25%; 
+			}
+			
+			.column_1 {
+				float: left;
+				width: 12.5%; 
+			}
+			
+			.column_1 section,			
+			.column_2 section,			
+			.column_3 section,			
+			.column_4 section,			
+			.column_5 section,			
+			.column_6 section,			
+			.column_7 section,			
+			.column_8 section {
+				padding: 0px 1em;
+				max-width: none;
+			}
+
+			
+		}			
+		
+
