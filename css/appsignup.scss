@@ -26,6 +26,7 @@ url(../img/blue_tile.jpg);
 /* 			 text-align: center; */
 			 font-weight: 300;
 			 font-size: 2em;
+			 margin-top: 0;
 			 margin-bottom: 0.5em;
 			 color: #3784AE
 		}
@@ -40,12 +41,16 @@ url(../img/blue_tile.jpg);
 		
 		input {
 			margin-bottom: 0.5em;
-			border:0;
+			border:1px solid #ddd;
+			bckground: #f4f4f4;
+			
 		}
+/*
 		
 		.button { 
 			width: 100%;
 		}
+*/
 	}
 	
 }
