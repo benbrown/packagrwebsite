@@ -16,10 +16,15 @@
 
 #tagline {
 	text-align: center;
-	background: #CAD2D5;
+	background-color: rgba(255,255,255,0.60);
+	
+	.container { 
+		padding-top: 0;
+		padding-bottom: 0;
+	}
 
 	h2 {
-		color: #FFF;	
+		color: #3784AE;	
 		margin: 0;
 		padding: 0.5em;
 		font-weight: normal;
