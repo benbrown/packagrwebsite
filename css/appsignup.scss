@@ -1,5 +1,5 @@
 #app_signup {
-	background: #f9f9f9;
+	background: #DDDDDD;
 	/*
 url(../img/blue_tile.jpg);
 	
@@ -13,6 +13,12 @@ url(../img/blue_tile.jpg);
 		margin: 0 auto;
 		padding-top: 2em;
 		padding-bottom: 2em;
+		
+		.box {
+			padding: 1em;
+			background: #FFF;
+			margin-bottom: 1em;
+		}
 	
 /* 		text-align: center; */
 	
@@ -21,6 +27,7 @@ url(../img/blue_tile.jpg);
 			 font-weight: 300;
 			 font-size: 2em;
 			 margin-bottom: 0.5em;
+			 color: #3784AE
 		}
 		
 		hr { 
