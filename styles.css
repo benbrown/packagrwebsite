@@ -493,13 +493,6 @@ background-image: linear-gradient(-179deg, #5DACE2 0%, #4B8DBA 100%);
 	display: block;
 }
 
-.xoxcologo, .xoxcologo img{
-	position: absolute;
-    margin: 0px auto;
-    text-align: center;
-    display: block;
-}
-
 .navwidth {
   max-width:30em;
 }
@@ -563,3 +556,7 @@ background-image: linear-gradient(-179deg, #5DACE2 0%, #4B8DBA 100%);
 	}
 
 /* End user defined styles */
+
+
+#footer a { display: block; text-align: center; }
+#footer a img { margin: 1em auto; }
